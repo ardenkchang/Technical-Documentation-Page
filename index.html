@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>JS Documentation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <nav id="navbar">
+    <header>JS Documentation</header>
+    <li><a class="nav-link" href="#Introduction" style="text-decoration:none">Introduction</a></li>
+    <li><a class="nav-link" href="#Hello_World" style="text-decoration:none">Hello World</a></li>
+    <li><a class="nav-link" href="#Declaring_Variables" style="text-decoration:none">Declaring Variables</a></li>
+    <li><a class="nav-link" href="#Function_Declaration" style="text-decoration:none">Function Declaration</a></li>
+    <li><a class="nav-link" href="#Reference" style="text-decoration:none">Reference</a></li>
+  </nav>
+  <body>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header id="Introduction">Introduction</header>
+        <p>JavaScript is a cross-platform, object-oriented scripting language/</p>
+        <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements.</p>
+      </section>
+      <section class="main-section" id="Hello_World">
+        <header id="Hello_World">Hello World</header>
+        <p>Hello World will the first program you learn to write.</p>
+        <pre>
+          <code>function greetMe(yourName) { alert("Hello " + yourName); } 
+greetMe("World");</code>
+        </pre>
+        <p>This program is considered to be the simplest one you will write.</p>
+      </section>
+      <section class="main-section" id="Declaring_Variables">
+        <header id="Declaring_Variables">Declaring Variables</header>
+        <p>There are three ways to declare a variable:</p>
+        <p>Using the keyword var:</p>
+        <pre>
+          <code>var x = 42</code>
+        </pre>
+        <ul>
+          <li>This syntax can be used to declare both local and global variables.</li>
+        </ul>
+        <p>Assigning a variable a value:</p>
+        <pre>
+          <code>x = 42</code>
+        </pre>
+        <ul>
+          <li>This always declares a global variable. It generates a strict JavaScript warning. You shouldn't use this variant.</li>
+        </ul>
+        <p>Using the keyword let:</p>
+        <pre>
+          <code>let y = 13</code>
+        </pre>
+        <ul>
+          <li>This syntax can be used to declare a block scope local variable.</li>
+        </ul>
+      </section>
+      <section class="main-section" id="Function_Declaration">
+        <header id="Function_Declaration">Function Declaration</header>
+        <p>A function definition consists of the "function" keyword.</p>
+        <ul>
+          <li>The name of the function</li>
+          <li>A list of arguments to the function, enclosed in parentheses and separated by commas</li>
+          <li>The JavaScript statements that define the function, enclosed in curly brackets, { }</li>
+        </ul>
+        <pre>
+          <code>function square(number) { return number * number; }</code>
+        </pre>
+      </section>
+      <section class="main-section" id="Reference">
+        <header id="Reference">Reference</header>
+        <p>All the information used in this Documentation is referenced from <a href="https://technical-documentation-page.freecodecamp.rocks">JS Documentation</a></p>
+      </section>
+    </main>
+  </body>
+</html>
